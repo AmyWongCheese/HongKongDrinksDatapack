@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "offhand": {
+        "item": "minecraft:milk_bucket",
+        "nbt": "{CustomModelData:6}"
+      }
+    }
+  }
+}

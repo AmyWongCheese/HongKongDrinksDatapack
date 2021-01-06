@@ -1,0 +1,34 @@
+{
+	"type": "entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:villager_spawn_egg",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{EntityTag:{Silent:1b,CustomNameVisible:1b,DeathLootTable:\"hkdrinks:vending_machine_spruce\",PersistenceRequired:1b,NoAI:1b,Health:1f,CustomName:'{\"translate\":\"item.hkdrinks.vending_machine_spruce.name\",\"italic\":false}',VillagerData:{level:99,profession:\"minecraft:butcher\",type:\"minecraft:snow\"},Offers:{Recipes:[{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.vita_icy_pink_grapefruit_tea.name\",\"italic\":false}'},CustomModelData:54}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.hung_fook_tong_ginseng_with_honey.name\",\"italic\":false}'},CustomModelData:53}}},{buy:{id:\"minecraft:bucket\",Count:3b},sell:{id:\"minecraft:emerald\",Count:1b}}]}}}"
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"translate": "item.hkdrinks.vending_machine_spruce.name",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

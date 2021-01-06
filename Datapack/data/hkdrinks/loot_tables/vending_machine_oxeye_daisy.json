@@ -1,0 +1,34 @@
+{
+	"type": "entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:villager_spawn_egg",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{EntityTag:{Silent:1b,CustomNameVisible:1b,DeathLootTable:\"hkdrinks:vending_machine_oxeye_daisy\",PersistenceRequired:1b,NoAI:1b,Health:1f,CustomName:'{\"translate\":\"item.hkdrinks.vending_machine_oxeye_daisy.name\",\"italic\":false}',VillagerData:{level:99,profession:\"minecraft:butcher\"},Offers:{Recipes:[{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.vita_cookies_cream_soya_milk.name\",\"italic\":false}'},CustomModelData:42}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.vitasoy_go_banana_pancake.name\",\"italic\":false}'},CustomModelData:43}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.vita_strawberry_soya_milk.name\",\"italic\":false}'},CustomModelData:44}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.tao_ti_honey_green_tea.name\",\"italic\":false}'},CustomModelData:45}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.vita_honey_lime_drink.name\",\"italic\":false}'},CustomModelData:46}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.vita_malted_soya_milk.name\",\"italic\":false}'},CustomModelData:3}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.vita_chrysanthemum_tea.name\",\"italic\":false}'},CustomModelData:48}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.yeung_gwong_chrysanthemum_tea.name\",\"italic\":false}'},CustomModelData:49}}},{buy:{id:\"minecraft:bucket\",Count:3b},sell:{id:\"minecraft:emerald\",Count:1b}}]}}}"
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"translate": "item.hkdrinks.vending_machine_oxeye_daisy.name",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

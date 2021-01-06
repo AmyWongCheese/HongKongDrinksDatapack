@@ -1,0 +1,12 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"item": "minecraft:oxeye_daisy",
+				"nbt": "{CustomModelData:53}"
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"type": "generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:milk_bucket",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:16}"
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"translate": "item.hkdrinks.tao_ti_supreme_meta_tea.name",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"type": "entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:villager_spawn_egg",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{EntityTag:{Silent:1b,CustomNameVisible:1b,DeathLootTable:\"hkdrinks:vending_machine_dark_oak\",PersistenceRequired:1b,NoAI:1b,Health:1f,CustomName:'{\"translate\":\"item.hkdrinks.vending_machine_dark_oak.name\",\"italic\":false}',VillagerData:{level:99,profession:\"minecraft:butcher\",type:\"minecraft:swamp\"},Offers:{Recipes:[{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.vita_blackcurrant_juice.name\",\"italic\":false}'},CustomModelData:36}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.vita_mint_chocolate_soya_milk.name\",\"italic\":false}'},CustomModelData:38}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.vita_tiramisu_drink_girl.name\",\"italic\":false}'},CustomModelData:39}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.vita_tiramisu_drink_boy.name\",\"italic\":false}'},CustomModelData:40}}},{buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:milk_bucket\",Count:1b,tag:{display:{Name:'{\"translate\":\"item.hkdrinks.tao_ti_grape_juice.name\",\"italic\":false}'},CustomModelData:41}}},{buy:{id:\"minecraft:bucket\",Count:3b},sell:{id:\"minecraft:emerald\",Count:1b}}]}}}"
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"translate": "item.hkdrinks.vending_machine_dark_oak.name",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

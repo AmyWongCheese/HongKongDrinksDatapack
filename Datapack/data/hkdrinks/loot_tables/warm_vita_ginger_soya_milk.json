@@ -1,0 +1,35 @@
+{
+    "type": "generic",
+    "pools": [
+		{
+            "rolls": 1,
+            "entries": [
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+						{
+                            "function": "set_count",
+                            "count": 1
+                        }, 
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:25,Enchantments:[{}],Effects:[{EffectId:12b,EffectDuration:1200}]}"
+                        }, 
+						{
+                            "function": "set_name",
+                            "name": [
+								{
+                                    "translate": "item.hkdrinks.warm_vita_ginger_soya_milk.name",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

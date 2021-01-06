@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hkdrinks:vending_machine_acacia"
+            }
+        }
+    },
+    "rewards": {
+        "function": "hkdrinks:vending_machine_acacia"
+    }
+}

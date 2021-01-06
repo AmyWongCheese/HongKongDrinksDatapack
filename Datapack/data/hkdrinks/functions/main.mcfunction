@@ -1,0 +1,65 @@
+#make Drinks placing sound
+execute as @e[type=minecraft:item_frame,tag=hkdrinks,tag=!placed] at @s run function hkdrinks:place
+
+#remove invisible item frame in survival mode
+execute as @e[type=item,nbt={Item:{id:"minecraft:item_frame",Count:1b,tag:{hkdrinks:1}}}] at @s run kill @e[type=item_frame,sort=nearest,distance=..0.5]
+
+#Normal Drinks
+function hkdrinks:healthworks_hawhorn_apple_drink
+function hkdrinks:healthworks_rock_sugar_with_pear
+function hkdrinks:hung_fook_tong_mandarin_juice_with_aloe
+function hkdrinks:hung_fook_tong_salted_mandarin
+function hkdrinks:tao_ti_grape_juice
+function hkdrinks:tao_ti_mandarin_lemon
+function hkdrinks:tao_ti_meta_green_tea
+function hkdrinks:tao_ti_supreme_meta_tea
+function hkdrinks:tao_ti_supreme_oolong_tea
+function hkdrinks:tao_ti_supreme_white_tea
+function hkdrinks:vita_apple_green_tea
+function hkdrinks:vita_apple_mango_tea
+function hkdrinks:vita_blackcurrant_juice
+function hkdrinks:vita_chinese_pear_tea
+function hkdrinks:vita_chrysanthemum_tea
+function hkdrinks:vita_coconut_soya_milk
+function hkdrinks:vita_ginger_soya_milk
+function hkdrinks:vita_guava_juice
+function hkdrinks:vita_icy_pink_grapefruit_tea
+function hkdrinks:vita_imperatae_cane
+function hkdrinks:vita_lemon_tea
+function hkdrinks:vita_lychee_love_tea
+function hkdrinks:vita_malted_soya_milk
+function hkdrinks:vita_mango_juice
+function hkdrinks:vita_red_bean_soya_milk
+function hkdrinks:vita_strawberry_soya_milk
+function hkdrinks:vita_sugarcane_juice
+function hkdrinks:vita_sweet_potato_soya_milk
+function hkdrinks:vita_vanilla_soya_milk
+function hkdrinks:vitasoy_go_banana_pancake
+function hkdrinks:vitasoy_soya_milk
+function hkdrinks:yeung_gwong_apple_juice
+function hkdrinks:yeung_gwong_chrysanthemum_tea
+function hkdrinks:yeung_gwong_coconut_soya_milk
+function hkdrinks:yeung_gwong_lemon_tea
+function hkdrinks:yeung_gwong_mandarin_tea
+function hkdrinks:yeung_gwong_mango_juice
+function hkdrinks:yeung_gwong_melon_soya_milk
+function hkdrinks:yeung_gwong_orange_juice
+function hkdrinks:yeung_gwong_peach_tea
+function hkdrinks:yeung_gwong_pineapple_juice
+function hkdrinks:yeung_gwong_sugarcane_juice
+
+#Chocolate Drinks
+function hkdrinks:vita_chocolate_milk
+function hkdrinks:vita_chocolate_soya_milk
+function hkdrinks:vita_cookies_cream_soya_milk
+function hkdrinks:vita_mint_chocolate_soya_milk
+function hkdrinks:vita_orange_chocolate_soya_milk
+function hkdrinks:vita_tiramisu_drink_boy
+function hkdrinks:vita_tiramisu_drink_girl
+
+#Honey Drinks
+function hkdrinks:hung_fook_tong_ginseng_with_honey
+function hkdrinks:hung_fook_tong_passion_fruit_with_honey
+function hkdrinks:tao_ti_honey_green_tea
+function hkdrinks:vita_honey_lime_drink
+function hkdrinks:yeung_gwong_honey_lychee_tea
