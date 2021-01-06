@@ -1,5 +1,5 @@
 #replace Vita Okinawa Purple Sweet Potato Soya Milk Drink to Vita Okinawa Purple Sweet Potato Soya Milk Block
-execute as @a if predicate hkdrinks:vita_sweet_potato_soya_milk/milk_bucket_in_off_hand run item entity @p weapon.offhand replace item_frame{display:{Name:'{"translate":"item.hkdrinks.vita_sweet_potato_soya_milk.name","italic":false}'},CustomModelData:23,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:23,hkdrinks:1}},Invisible:1b}} 1
+execute as @a if predicate hkdrinks:vita_sweet_potato_soya_milk/milk_bucket_in_off_hand run replaceitem entity @p weapon.offhand item_frame{display:{Name:'{"translate":"item.hkdrinks.vita_sweet_potato_soya_milk.name","italic":false}'},CustomModelData:23,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:23,hkdrinks:1}},Invisible:1b}} 1
 
 #replace Vita Okinawa Purple Sweet Potato Soya Milk Block to Vita Okinawa Purple Sweet Potato Soya Milk Drink
-execute as @a if predicate hkdrinks:vita_sweet_potato_soya_milk/item_frame_in_main_hand run item entity @p weapon.mainhand replace milk_bucket{display:{Name:'{"translate":"item.hkdrinks.vita_sweet_potato_soya_milk.name","italic":false}'},CustomModelData:23} 1
+execute as @a if predicate hkdrinks:vita_sweet_potato_soya_milk/item_frame_in_main_hand run replaceitem entity @p weapon.mainhand milk_bucket{display:{Name:'{"translate":"item.hkdrinks.vita_sweet_potato_soya_milk.name","italic":false}'},CustomModelData:23} 1
