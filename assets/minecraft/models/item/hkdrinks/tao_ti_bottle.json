@@ -1,0 +1,64 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "item/hkdrinks/tao_ti_meta_green_tea",
+		"particle": "item/hkdrinks/tao_ti_meta_green_tea"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 12, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"faces": {
+				"north": {"uv": [0, 3.1875, 3.1875, 12.8125], "texture": "#0"},
+				"east": {"uv": [9.625, 3.1875, 12.8125, 12.8125], "texture": "#0"},
+				"south": {"uv": [6.375, 3.1875, 9.5625, 12.8125], "texture": "#0"},
+				"west": {"uv": [3.1875, 3.1875, 6.375, 12.8125], "texture": "#0"},
+				"up": {"uv": [3.1875, 0, 6.375, 3.1875], "texture": "#0"},
+				"down": {"uv": [6.375, 0, 9.5625, 3.1875], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 12, 7],
+			"to": [9, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 13, 8]},
+			"faces": {
+				"north": {"uv": [9.625, 1.625, 11.25, 3.2], "texture": "#0"},
+				"east": {"uv": [14.375, 1.625, 16, 3.2], "texture": "#0"},
+				"south": {"uv": [12.825, 1.625, 14.45, 3.2], "texture": "#0"},
+				"west": {"uv": [11.1875, 1.625, 12.8125, 3.2], "texture": "#0"},
+				"up": {"uv": [12.7875, 1.6, 11.2375, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1, 0, 1.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-1, 0, 1.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-25, -60, 0],
+			"translation": [4.75, -0.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-25, -60, 0],
+			"translation": [4.75, -0.5, 0]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"translation": [0, 0.75, 0],
+			"scale": [1.1, 1.1, 1.1]
+		},
+		"fixed": {
+			"translation": [0, 1.5, 0],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}

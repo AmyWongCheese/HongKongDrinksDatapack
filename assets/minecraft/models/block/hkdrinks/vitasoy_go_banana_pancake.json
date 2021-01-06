@@ -1,0 +1,6 @@
+{
+	"parent": "block/hkdrinks/juicebox",
+	"textures": {
+		"0": "item/hkdrinks/vitasoy_go_banana_pancake"
+	}
+}

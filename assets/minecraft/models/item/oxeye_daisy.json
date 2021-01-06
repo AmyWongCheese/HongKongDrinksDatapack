@@ -1,0 +1,38 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "block/oxeye_daisy"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data":19
+			},
+			"model": "item/hkdrinks/hung_fook_tong_passion_fruit_with_honey"
+		},
+		{
+			"predicate": {
+				"custom_model_data":45
+			},
+			"model": "item/hkdrinks/tao_ti_honey_green_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":46
+			},
+			"model": "item/hkdrinks/vita_honey_lime_drink"
+		},
+		{
+			"predicate": {
+				"custom_model_data":52
+			},
+			"model": "item/hkdrinks/yeung_gwong_honey_lychee_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":53
+			},
+			"model": "item/hkdrinks/hung_fook_tong_ginseng_with_honey"
+		}
+	]
+}

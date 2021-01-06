@@ -1,0 +1,6 @@
+{
+	"parent": "block/hkdrinks/hung_fook_tong_bottle",
+	"textures": {
+		"0": "item/hkdrinks/hung_fook_tong_passion_fruit_with_honey"
+	}
+}

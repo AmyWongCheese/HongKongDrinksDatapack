@@ -1,0 +1,44 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/cookie"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "item/hkdrinks/vita_chocolate_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":21
+			},
+			"model": "item/hkdrinks/vita_chocolate_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":38
+			},
+			"model": "item/hkdrinks/vita_mint_chocolate_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":39
+			},
+			"model": "item/hkdrinks/vita_tiramisu_drink_girl"
+		},
+		{
+			"predicate": {
+				"custom_model_data":40
+			},
+			"model": "item/hkdrinks/vita_tiramisu_drink_boy"
+		},
+		{
+			"predicate": {
+				"custom_model_data":42
+			},
+			"model": "item/hkdrinks/vita_cookies_cream_soya_milk"
+		}
+	]
+}

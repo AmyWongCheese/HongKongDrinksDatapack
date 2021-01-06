@@ -1,0 +1,6 @@
+{
+	"parent": "block/hkdrinks/tao_ti_bottle",
+	"textures": {
+		"0": "item/hkdrinks/tao_ti_meta_green_tea"
+	}
+}

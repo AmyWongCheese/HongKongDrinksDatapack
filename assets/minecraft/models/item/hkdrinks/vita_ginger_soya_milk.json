@@ -1,0 +1,7 @@
+{
+	"parent": "item/hkdrinks/juicebox",
+	"textures": {
+		"0": "item/hkdrinks/vita_ginger_soya_milk",
+		"particle": "item/honey_bottle"
+	}
+}

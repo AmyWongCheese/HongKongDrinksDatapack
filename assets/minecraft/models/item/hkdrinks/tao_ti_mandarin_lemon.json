@@ -1,0 +1,6 @@
+{
+	"parent": "item/hkdrinks/juicebox",
+	"textures": {
+		"0": "item/hkdrinks/tao_ti_mandarin_lemon"
+	}
+}

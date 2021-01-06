@@ -1,0 +1,6 @@
+{
+	"parent": "item/hkdrinks/tao_ti_bottle",
+	"textures": {
+		"0": "item/hkdrinks/tao_ti_supreme_white_tea"
+	}
+}

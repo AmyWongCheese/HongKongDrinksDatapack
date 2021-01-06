@@ -1,0 +1,6 @@
+{
+	"parent": "item/hkdrinks/hung_fook_tong_bottle",
+	"textures": {
+		"0": "item/hkdrinks/hung_fook_tong_mandarin_juice_with_aloe"
+	}
+}

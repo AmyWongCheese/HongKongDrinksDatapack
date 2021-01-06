@@ -1,0 +1,6 @@
+{
+	"parent": "block/hkdrinks/vita_bottle",
+	"textures": {
+		"0": "item/hkdrinks/vita_lychee_love_tea"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "block/hkdrinks/juicebox",
+	"textures": {
+		"0": "item/hkdrinks/tao_ti_supreme_meta_tea"
+	}
+}

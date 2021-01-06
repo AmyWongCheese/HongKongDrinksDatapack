@@ -1,0 +1,11 @@
+{
+	"pack": {
+		"pack_format": 7,
+		"description": [
+			{
+				"translate": "hkdrinks.resourcepack.name",
+				"color": "gold"
+			}
+		]
+	}
+}

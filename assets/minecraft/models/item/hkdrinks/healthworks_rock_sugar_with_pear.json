@@ -1,0 +1,6 @@
+{
+	"parent": "item/hkdrinks/juicebox",
+	"textures": {
+		"0": "item/hkdrinks/healthworks_rock_sugar_with_pear"
+	}
+}

@@ -1,0 +1,332 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/item_frame"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data":1
+			},
+			"model": "block/hkdrinks/vita_lemon_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":2
+			},
+			"model": "block/hkdrinks/vitasoy_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":3
+			},
+			"model": "block/hkdrinks/vita_malted_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":4
+			},
+			"model": "block/hkdrinks/yeung_gwong_lemon_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":5
+			},
+			"model": "block/hkdrinks/vita_chocolate_milk"
+		}, 
+		{
+			"predicate": {
+				"custom_model_data":6
+			},
+			"model": "block/hkdrinks/tao_ti_mandarin_lemon"
+		},
+		{
+			"predicate": {
+				"custom_model_data":7
+			},
+			"model": "block/hkdrinks/vita_mango_juice"
+		},
+		{
+			"predicate": {
+				"custom_model_data":8
+			},
+			"model": "block/hkdrinks/yeung_gwong_mango_juice"
+		},
+		{
+			"predicate": {
+				"custom_model_data":9
+			},
+			"model": "block/hkdrinks/vita_guava_juice"
+		},
+		{
+			"predicate": {
+				"custom_model_data":10
+			},
+			"model": "block/hkdrinks/yeung_gwong_pineapple_juice"
+		},
+		{
+			"predicate": {
+				"custom_model_data":11
+			},
+			"model": "block/hkdrinks/yeung_gwong_melon_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":12
+			},
+			"model": "block/hkdrinks/yeung_gwong_mandarin_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":13
+			},
+			"model": "block/hkdrinks/vita_red_bean_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":14
+			},
+			"model": "block/hkdrinks/yeung_gwong_peach_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":15
+			},
+			"model": "block/hkdrinks/tao_ti_supreme_oolong_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":16
+			},
+			"model": "block/hkdrinks/tao_ti_supreme_meta_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":17
+			},
+			"model": "block/hkdrinks/tao_ti_meta_green_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":18
+			},
+			"model": "block/hkdrinks/tao_ti_supreme_white_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":19
+			},
+			"model": "block/hkdrinks/hung_fook_tong_passion_fruit_with_honey"
+		},
+		{
+			"predicate": {
+				"custom_model_data":20
+			},
+			"model": "block/hkdrinks/hung_fook_tong_salted_mandarin"
+		},
+		{
+			"predicate": {
+				"custom_model_data":21
+			},
+			"model": "block/hkdrinks/vita_chocolate_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":22
+			},
+			"model": "block/hkdrinks/vita_vanilla_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":23
+			},
+			"model": "block/hkdrinks/vita_sweet_potato_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":24
+			},
+			"model": "block/hkdrinks/vita_orange_chocolate_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":25
+			},
+			"model": "block/hkdrinks/vita_ginger_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":26
+			},
+			"model": "block/hkdrinks/vita_sugarcane_juice"
+		},
+		{
+			"predicate": {
+				"custom_model_data":27
+			},
+			"model": "block/hkdrinks/yeung_gwong_sugarcane_juice"
+		},
+		{
+			"predicate": {
+				"custom_model_data":28
+			},
+			"model": "block/hkdrinks/vita_imperatae_cane"
+		},
+		{
+			"predicate": {
+				"custom_model_data":29
+			},
+			"model": "block/hkdrinks/hung_fook_tong_mandarin_juice_with_aloe"
+		},
+		{
+			"predicate": {
+				"custom_model_data":30
+			},
+			"model": "block/hkdrinks/vita_apple_green_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":31
+			},
+			"model": "block/hkdrinks/vita_apple_mango_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":32
+			},
+			"model": "block/hkdrinks/yeung_gwong_apple_juice"
+		},
+		{
+			"predicate": {
+				"custom_model_data":33
+			},
+			"model": "block/hkdrinks/healthworks_hawhorn_apple_drink"
+		},
+		{
+			"predicate": {
+				"custom_model_data":34
+			},
+			"model": "block/hkdrinks/vita_chinese_pear_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":35
+			},
+			"model": "block/hkdrinks/healthworks_rock_sugar_with_pear"
+		},
+		{
+			"predicate": {
+				"custom_model_data":36
+			},
+			"model": "block/hkdrinks/vita_blackcurrant_juice"
+		},
+		{
+			"predicate": {
+				"custom_model_data":37
+			},
+			"model": "block/hkdrinks/vita_lychee_love_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":38
+			},
+			"model": "block/hkdrinks/vita_mint_chocolate_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":39
+			},
+			"model": "block/hkdrinks/vita_tiramisu_drink_girl"
+		},
+		{
+			"predicate": {
+				"custom_model_data":40
+			},
+			"model": "block/hkdrinks/vita_tiramisu_drink_boy"
+		},
+		{
+			"predicate": {
+				"custom_model_data":41
+			},
+			"model": "block/hkdrinks/tao_ti_grape_juice"
+		},
+		{
+			"predicate": {
+				"custom_model_data":42
+			},
+			"model": "block/hkdrinks/vita_cookies_cream_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":43
+			},
+			"model": "block/hkdrinks/vitasoy_go_banana_pancake"
+		},
+		{
+			"predicate": {
+				"custom_model_data":44
+			},
+			"model": "block/hkdrinks/vita_strawberry_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":45
+			},
+			"model": "block/hkdrinks/tao_ti_honey_green_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":46
+			},
+			"model": "block/hkdrinks/vita_honey_lime_drink"
+		},
+		{
+			"predicate": {
+				"custom_model_data":47
+			},
+			"model": "block/hkdrinks/yeung_gwong_orange_juice"
+		},
+		{
+			"predicate": {
+				"custom_model_data":48
+			},
+			"model": "block/hkdrinks/vita_chrysanthemum_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":49
+			},
+			"model": "block/hkdrinks/yeung_gwong_chrysanthemum_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":50
+			},
+			"model": "block/hkdrinks/vita_coconut_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":51
+			},
+			"model": "block/hkdrinks/yeung_gwong_coconut_soya_milk"
+		},
+		{
+			"predicate": {
+				"custom_model_data":52
+			},
+			"model": "block/hkdrinks/yeung_gwong_honey_lychee_tea"
+		},
+		{
+			"predicate": {
+				"custom_model_data":53
+			},
+			"model": "block/hkdrinks/hung_fook_tong_ginseng_with_honey"
+		},
+		{
+			"predicate": {
+				"custom_model_data":54
+			},
+			"model": "block/hkdrinks/vita_icy_pink_grapefruit_tea"
+		}
+	]
+}

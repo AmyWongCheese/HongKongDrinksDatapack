@@ -1,0 +1,6 @@
+{
+	"parent": "block/hkdrinks/juicebox",
+	"textures": {
+		"0": "item/hkdrinks/vita_tiramisu_drink_boy"
+	}
+}

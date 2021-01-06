@@ -1,0 +1,6 @@
+{
+	"parent": "item/hkdrinks/juicebox",
+	"textures": {
+		"0": "item/hkdrinks/yeung_gwong_mango_juice"
+	}
+}
