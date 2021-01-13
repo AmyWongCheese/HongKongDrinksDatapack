@@ -12,7 +12,7 @@ tag @e[nbt={OnGround:1b,Item:{id:"minecraft:sugar",Count:1b}}] add yeung_gwong_s
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:sugar_cane",Count:1b}}] add yeung_gwong_sugarcane_juice_craft4
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:water_bucket",Count:1b}}] add yeung_gwong_sugarcane_juice_craft5
 #output
-execute at @e[tag=yeung_gwong_sugarcane_juice_craft1] as @e[tag=yeung_gwong_sugarcane_juice_craft2,distance=..1] as @e[tag=yeung_gwong_sugarcane_juice_craft3,distance=..1] as @e[tag=yeung_gwong_sugarcane_juice_craft4,distance=..1] as @e[tag=yeung_gwong_sugarcane_juice_craft5,distance=..1] run summon item ~ ~ ~ {PickupDelay:20,Tags:["itemkill1"],Item:{id:"minecraft:milk_bucket",Count:1b,tag:{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_sugarcane_juice.name","italic":false}'},CustomModelData:26}}}
+execute at @e[tag=yeung_gwong_sugarcane_juice_craft1] as @e[tag=yeung_gwong_sugarcane_juice_craft2,distance=..1] as @e[tag=yeung_gwong_sugarcane_juice_craft3,distance=..1] as @e[tag=yeung_gwong_sugarcane_juice_craft4,distance=..1] as @e[tag=yeung_gwong_sugarcane_juice_craft5,distance=..1] run summon item ~ ~ ~ {PickupDelay:20,Tags:["itemkill1"],Item:{id:"minecraft:milk_bucket",Count:1b,tag:{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_sugarcane_juice.name","italic":false}'},CustomModelData:27}}}
 #kill drop item
 execute at @e[tag=itemkill1] run kill @e[tag=yeung_gwong_sugarcane_juice_craft1,distance=..1]
 execute at @e[tag=itemkill1] run kill @e[tag=yeung_gwong_sugarcane_juice_craft2,distance=..1]
