@@ -1,10 +1,5 @@
-#replace Hung Fook Tong Passion Fruit with Honey Drink or Oxeye Daisy to Hung Fook Tong Passion Fruit with Honey Drink Block
-execute as @a if predicate hkdrinks:hung_fook_tong_passion_fruit_with_honey/milk_bucket_in_off_hand run item entity @p weapon.offhand replace item_frame{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_passion_fruit_with_honey.name","italic":false}'},CustomModelData:19,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:19,hkdrinks:1}},Invisible:1b}} 1
-execute as @a if predicate hkdrinks:hung_fook_tong_passion_fruit_with_honey/oxeye_daisy_in_off_hand run item entity @p weapon.offhand replace item_frame{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_passion_fruit_with_honey.name","italic":false}'},CustomModelData:19,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:19,hkdrinks:1}},Invisible:1b}} 1
-
-#replace Hung Fook Tong Passion Fruit with Honey Drink to Hung Fook Tong Passion Fruit with Honey Drink Oxeye Daisy
-execute as @a if predicate hkdrinks:hung_fook_tong_passion_fruit_with_honey/milk_bucket_in_main_hand_is_sneaking run item entity @p weapon.mainhand replace oxeye_daisy{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_passion_fruit_with_honey.name","italic":false}'},CustomModelData:19} 1
+#replace Hung Fook Tong Passion Fruit with Honey Drink to Hung Fook Tong Passion Fruit with Honey Drink Block
+execute as @e[nbt={Inventory:[{id:"minecraft:milk_bucket",Slot:-106b,tag:{CustomModelData:19}}]}] run replaceitem entity @p weapon.offhand item_frame{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_passion_fruit_with_honey.name","italic":false}'},CustomModelData:19,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:19,hkdrinks:1}},Invisible:1b}} 1
 
 #Hung Fook Tong Passion Fruit with Honey Drink Block or Oxeye Daisy to Hung Fook Tong Passion Fruit with Honey Drink
-execute as @a if predicate hkdrinks:hung_fook_tong_passion_fruit_with_honey/item_frame_in_main_hand run item entity @p weapon.mainhand replace milk_bucket{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_passion_fruit_with_honey.name","italic":false}'},CustomModelData:19} 1
-execute as @a if predicate hkdrinks:hung_fook_tong_passion_fruit_with_honey/oxeye_daisy_in_main_hand run item entity @p weapon.mainhand replace milk_bucket{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_passion_fruit_with_honey.name","italic":false}'},CustomModelData:19} 1
+execute as @e[nbt={SelectedItem:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:19}}}] run loot replace entity @p weapon.mainhand loot hkdrinks:hung_fook_tong_passion_fruit_with_honey

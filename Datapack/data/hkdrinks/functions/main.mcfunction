@@ -1,3 +1,6 @@
+#Add Sneak detect
+scoreboard objectives add Sneak minecraft.custom:minecraft.sneak_time
+
 #make Drinks placing sound
 execute as @e[type=minecraft:item_frame,tag=hkdrinks,tag=!placed] at @s run function hkdrinks:place
 

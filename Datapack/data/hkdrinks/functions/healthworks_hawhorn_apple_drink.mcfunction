@@ -1,8 +1,8 @@
 #replace Healthworks Hawhorn Apple Drink to Healthworks Hawhorn Apple Drink Block
-execute as @a if predicate hkdrinks:healthworks_hawhorn_apple_drink/milk_bucket_in_off_hand run item entity @p weapon.offhand replace item_frame{display:{Name:'{"translate":"item.hkdrinks.healthworks_hawhorn_apple_drink.name","italic":false}'},CustomModelData:33,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:33,hkdrinks:1}},Invisible:1b}} 1
+execute as @e[nbt={Inventory:[{id:"minecraft:milk_bucket",Slot:-106b,tag:{CustomModelData:33}}]}] run replaceitem entity @p weapon.offhand item_frame{display:{Name:'{"translate":"item.hkdrinks.healthworks_hawhorn_apple_drink.name","italic":false}'},CustomModelData:33,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:33,hkdrinks:1}},Invisible:1b}} 1
 
 #replace Healthworks Hawhorn Apple Drink Block to Healthworks Hawhorn Apple Drink
-execute as @a if predicate hkdrinks:healthworks_hawhorn_apple_drink/item_frame_in_main_hand run item entity @p weapon.mainhand replace milk_bucket{display:{Name:'{"translate":"item.hkdrinks.healthworks_hawhorn_apple_drink.name","italic":false}'},CustomModelData:33} 1
+execute as @e[nbt={SelectedItem:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:33}}}] run loot replace entity @p weapon.mainhand loot hkdrinks:healthworks_hawhorn_apple_drink
 
 #floor crafting with ccp datapack v1.11.2-1127
 #input
