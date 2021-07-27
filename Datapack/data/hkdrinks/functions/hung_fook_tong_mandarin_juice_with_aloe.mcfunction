@@ -1,5 +1,5 @@
-#replace Hung Fook Tong Mandarin Juice With Aloe Drink to Hung Fook Tong Mandarin Juice With Aloe Block
-execute as @a if predicate hkdrinks:hung_fook_tong_mandarin_juice_with_aloe/milk_bucket_in_off_hand run item entity @p weapon.offhand replace item_frame{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_mandarin_juice_with_aloe.name","italic":false}'},CustomModelData:29,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:29,hkdrinks:1}},Invisible:1b}} 1
+#replace Hung Fook Tong Mandarin Juice With Aloe Drink with Hung Fook Tong Mandarin Juice With Aloe Block
+execute as @a if predicate hkdrinks:hung_fook_tong_mandarin_juice_with_aloe/milk_bucket_in_off_hand run item replace entity @p weapon.offhand with item_frame{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_mandarin_juice_with_aloe.name","italic":false}'},CustomModelData:29,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:29,hkdrinks:1}},Invisible:1b}} 1
 
-#replace Hung Fook Tong Mandarin Juice With Aloe Block to Hung Fook Tong Mandarin Juice With Aloe Drink
-execute as @a if predicate hkdrinks:hung_fook_tong_mandarin_juice_with_aloe/item_frame_in_main_hand run item entity @p weapon.mainhand replace milk_bucket{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_mandarin_juice_with_aloe.name","italic":false}'},CustomModelData:29} 1
+#replace Hung Fook Tong Mandarin Juice With Aloe Block with Hung Fook Tong Mandarin Juice With Aloe Drink
+execute as @a if predicate hkdrinks:hung_fook_tong_mandarin_juice_with_aloe/item_frame_in_main_hand run item replace entity @p weapon.mainhand with milk_bucket{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_mandarin_juice_with_aloe.name","italic":false}'},CustomModelData:29} 1

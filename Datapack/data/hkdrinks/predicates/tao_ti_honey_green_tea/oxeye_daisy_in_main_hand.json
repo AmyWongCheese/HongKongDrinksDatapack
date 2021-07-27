@@ -7,7 +7,7 @@
     },
     "equipment": {
       "mainhand": {
-        "item": "minecraft:oxeye_daisy",
+        "items": ["minecraft:oxeye_daisy"],
         "nbt": "{CustomModelData:45}"
       }
     }

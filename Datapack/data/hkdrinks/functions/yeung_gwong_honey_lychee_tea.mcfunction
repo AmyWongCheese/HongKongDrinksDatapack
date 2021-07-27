@@ -1,10 +1,10 @@
-#replace Yeung Gwong Honey Lychee Tea Drink or Oxeye Daisy to Yeung Gwong Honey Lychee Tea Block
-execute as @a if predicate hkdrinks:yeung_gwong_honey_lychee_tea/milk_bucket_in_off_hand run item entity @p weapon.offhand replace item_frame{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_honey_lychee_tea.name","italic":false}'},CustomModelData:52,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:52,hkdrinks:1}},Invisible:1b}} 1
-execute as @a if predicate hkdrinks:yeung_gwong_honey_lychee_tea/oxeye_daisy_in_off_hand run item entity @p weapon.offhand replace item_frame{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_honey_lychee_tea.name","italic":false}'},CustomModelData:52,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:52,hkdrinks:1}},Invisible:1b}} 1
+#replace Yeung Gwong Honey Lychee Tea Drink or Oxeye Daisy with Yeung Gwong Honey Lychee Tea Block
+execute as @a if predicate hkdrinks:yeung_gwong_honey_lychee_tea/milk_bucket_in_off_hand run item replace entity @p weapon.offhand with item_frame{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_honey_lychee_tea.name","italic":false}'},CustomModelData:52,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:52,hkdrinks:1}},Invisible:1b}} 1
+execute as @a if predicate hkdrinks:yeung_gwong_honey_lychee_tea/oxeye_daisy_in_off_hand run item replace entity @p weapon.offhand with item_frame{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_honey_lychee_tea.name","italic":false}'},CustomModelData:52,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:52,hkdrinks:1}},Invisible:1b}} 1
 
-#replace Yeung Gwong Honey Lychee Tea Drink to Yeung Gwong Honey Lychee Tea Oxeye Daisy
-execute as @a if predicate hkdrinks:yeung_gwong_honey_lychee_tea/milk_bucket_in_main_hand_is_sneaking run item entity @p weapon.mainhand replace oxeye_daisy{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_honey_lychee_tea.name","italic":false}'},CustomModelData:52} 1
+#replace Yeung Gwong Honey Lychee Tea Drink with Yeung Gwong Honey Lychee Tea Oxeye Daisy
+execute as @a if predicate hkdrinks:yeung_gwong_honey_lychee_tea/milk_bucket_in_main_hand_is_sneaking run item replace entity @p weapon.mainhand with oxeye_daisy{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_honey_lychee_tea.name","italic":false}'},CustomModelData:52} 1
 
-#replace Yeung Gwong Honey Lychee Tea Block or Oxeye Daisy to Yeung Gwong Honey Lychee Tea Drink
-execute as @a if predicate hkdrinks:yeung_gwong_honey_lychee_tea/item_frame_in_main_hand run item entity @p weapon.mainhand replace milk_bucket{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_honey_lychee_tea.name","italic":false}'},CustomModelData:52} 1
-execute as @a if predicate hkdrinks:yeung_gwong_honey_lychee_tea/oxeye_daisy_in_main_hand run item entity @p weapon.mainhand replace milk_bucket{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_honey_lychee_tea.name","italic":false}'},CustomModelData:52} 1
+#replace Yeung Gwong Honey Lychee Tea Block or Oxeye Daisy with Yeung Gwong Honey Lychee Tea Drink
+execute as @a if predicate hkdrinks:yeung_gwong_honey_lychee_tea/item_frame_in_main_hand run item replace entity @p weapon.mainhand with milk_bucket{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_honey_lychee_tea.name","italic":false}'},CustomModelData:52} 1
+execute as @a if predicate hkdrinks:yeung_gwong_honey_lychee_tea/oxeye_daisy_in_main_hand run item replace entity @p weapon.mainhand with milk_bucket{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_honey_lychee_tea.name","italic":false}'},CustomModelData:52} 1

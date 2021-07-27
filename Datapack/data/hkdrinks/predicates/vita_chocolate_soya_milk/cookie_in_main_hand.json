@@ -7,7 +7,7 @@
     },
     "equipment": {
       "mainhand": {
-        "item": "minecraft:cookie",
+        "items": ["minecraft:cookie"],
         "nbt": "{CustomModelData:21}"
       }
     }

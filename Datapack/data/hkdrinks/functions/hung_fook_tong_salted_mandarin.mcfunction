@@ -1,5 +1,5 @@
-#replace Hung Fook Tong Salted Mandarin Drink to Hung Fook Tong Salted Mandarin Drink Block
-execute as @a if predicate hkdrinks:hung_fook_tong_salted_mandarin/milk_bucket_in_off_hand run item entity @p weapon.offhand replace item_frame{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_salted_mandarin.name","italic":false}'},CustomModelData:20,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:20,hkdrinks:1}},Invisible:1b}} 1
+#replace Hung Fook Tong Salted Mandarin Drink with Hung Fook Tong Salted Mandarin Drink Block
+execute as @a if predicate hkdrinks:hung_fook_tong_salted_mandarin/milk_bucket_in_off_hand run item replace entity @p weapon.offhand with item_frame{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_salted_mandarin.name","italic":false}'},CustomModelData:20,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:20,hkdrinks:1}},Invisible:1b}} 1
 
-#replace Hung Fook Tong Salted Mandarin Drink Block to Hung Fook Tong Salted Mandarin Drink
-execute as @a if predicate hkdrinks:hung_fook_tong_salted_mandarin/item_frame_in_main_hand run item entity @p weapon.mainhand replace milk_bucket{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_salted_mandarin.name","italic":false}'},CustomModelData:20} 1
+#replace Hung Fook Tong Salted Mandarin Drink Block with Hung Fook Tong Salted Mandarin Drink
+execute as @a if predicate hkdrinks:hung_fook_tong_salted_mandarin/item_frame_in_main_hand run item replace entity @p weapon.mainhand with milk_bucket{display:{Name:'{"translate":"item.hkdrinks.hung_fook_tong_salted_mandarin.name","italic":false}'},CustomModelData:20} 1

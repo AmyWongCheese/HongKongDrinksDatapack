@@ -5,7 +5,7 @@
     "type": "minecraft:player",
     "equipment": {
       "offhand": {
-        "item": "minecraft:milk_bucket",
+        "items": ["minecraft:milk_bucket"],
         "nbt": "{CustomModelData:29}"
       }
     }

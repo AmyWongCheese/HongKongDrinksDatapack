@@ -7,7 +7,7 @@
     },
     "equipment": {
       "mainhand": {
-        "item": "minecraft:milk_bucket",
+        "items": ["minecraft:milk_bucket"],
         "nbt": "{CustomModelData:39}"
       }
     }

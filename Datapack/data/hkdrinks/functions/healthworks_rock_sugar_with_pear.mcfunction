@@ -1,5 +1,5 @@
-#replace Healthworks Rock Sugar With Pear Drink to Healthworks Rock Sugar With Pear Block
-execute as @a if predicate hkdrinks:healthworks_rock_sugar_with_pear/milk_bucket_in_off_hand run item entity @p weapon.offhand replace item_frame{display:{Name:'{"translate":"item.hkdrinks.healthworks_rock_sugar_with_pear.name","italic":false}'},CustomModelData:35,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:35,hkdrinks:1}},Invisible:1b}} 1
+#replace Healthworks Rock Sugar With Pear Drink with Healthworks Rock Sugar With Pear Block
+execute as @a if predicate hkdrinks:healthworks_rock_sugar_with_pear/milk_bucket_in_off_hand run item replace entity @p weapon.offhand with item_frame{display:{Name:'{"translate":"item.hkdrinks.healthworks_rock_sugar_with_pear.name","italic":false}'},CustomModelData:35,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:35,hkdrinks:1}},Invisible:1b}} 1
 
-#replace Healthworks Rock Sugar With Pear Block to Healthworks Rock Sugar With Pear Drink
-execute as @a if predicate hkdrinks:healthworks_rock_sugar_with_pear/item_frame_in_main_hand run item entity @p weapon.mainhand replace milk_bucket{display:{Name:'{"translate":"item.hkdrinks.healthworks_rock_sugar_with_pear.name","italic":false}'},CustomModelData:35} 1
+#replace Healthworks Rock Sugar With Pear Block with Healthworks Rock Sugar With Pear Drink
+execute as @a if predicate hkdrinks:healthworks_rock_sugar_with_pear/item_frame_in_main_hand run item replace entity @p weapon.mainhand with milk_bucket{display:{Name:'{"translate":"item.hkdrinks.healthworks_rock_sugar_with_pear.name","italic":false}'},CustomModelData:35} 1

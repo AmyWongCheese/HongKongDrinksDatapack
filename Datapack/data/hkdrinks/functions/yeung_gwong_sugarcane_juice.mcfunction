@@ -1,8 +1,8 @@
-#replace Yeung Gwong Sugarcane Juice Drink to Yeung Gwong Sugarcane Juice Block
-execute as @a if predicate hkdrinks:yeung_gwong_sugarcane_juice/milk_bucket_in_off_hand run item entity @p weapon.offhand replace item_frame{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_sugarcane_juice.name","italic":false}'},CustomModelData:27,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:27,hkdrinks:1}},Invisible:1b}} 1
+#replace Yeung Gwong Sugarcane Juice Drink with Yeung Gwong Sugarcane Juice Block
+execute as @a if predicate hkdrinks:yeung_gwong_sugarcane_juice/milk_bucket_in_off_hand run item replace entity @p weapon.offhand with item_frame{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_sugarcane_juice.name","italic":false}'},CustomModelData:27,EntityTag:{Silent:1b,Tags:["hkdrinks"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:27,hkdrinks:1}},Invisible:1b}} 1
 
-#replace Yeung Gwong Sugarcane Juice Block to Yeung Gwong Sugarcane Juice Drink
-execute as @a if predicate hkdrinks:yeung_gwong_sugarcane_juice/item_frame_in_main_hand run item entity @p weapon.mainhand replace milk_bucket{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_sugarcane_juice.name","italic":false}'},CustomModelData:27} 1
+#replace Yeung Gwong Sugarcane Juice Block with Yeung Gwong Sugarcane Juice Drink
+execute as @a if predicate hkdrinks:yeung_gwong_sugarcane_juice/item_frame_in_main_hand run item replace entity @p weapon.mainhand with milk_bucket{display:{Name:'{"translate":"item.hkdrinks.yeung_gwong_sugarcane_juice.name","italic":false}'},CustomModelData:27} 1
 
 #floor crafting
 #input
